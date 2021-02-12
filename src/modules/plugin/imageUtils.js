@@ -44,6 +44,10 @@ export const IconFactory = {
         default: (state, attributes, labelTemplate) => IconFactory.switch.default(state, attributes, labelTemplate)
     },
 
+    fan: {
+        default: (state, attributes, labelTemplate) => IconFactory.switch.default(state, attributes, labelTemplate)
+    },
+
     binary_sensor: {
         default: (state, attributes, labelTemplate) => {
             let icon;
